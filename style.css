@@ -45,8 +45,6 @@ body{
     font-size: 1.8rem;
 }
 
-
-
 /* SECOND-PRESENTATION */
 
 /* BLOCK */
@@ -112,7 +110,93 @@ body{
     font-size: 2rem;
 }
 
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
 
+/* CRAFTS */
+
+.craft-body{
+    background-color: var(--encabezados);
+}
+
+.footer-crafts{
+    background-color: none;
+}
+
+.presentation-crafts-info h3{
+    color: var(--amarillo-tradicional);
+    font-size: 3rem;
+}
+
+.presentation-crafts-info p{
+    color: var(--fondo-claro);
+    font-size: 1.5rem;
+}
+
+/* PRODUCT-CRAFTS */
+
+/* BLOCK */
+
+.presentation-crafts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+
+/* ELEMENTS */
+
+.presentation-crafts-info{
+    width: 40%;
+}
+
+/* BLOCK */
+
+.second-crafts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+/* ELEMENTS */
+
+.second-crafts img{
+    width: 60%;
+}
+
+/* BLOCK */
+
+.third-crafts{
+    display: flex;
+    justify-content: space-between;
+    margin: 10vh;
+    align-items: center;
+}
+
+.third-crafts img{
+    width: 55%;
+}
+
+/* BLOCK */
+
+.four-crafts{
+    display: flex;
+    flex-direction: column;
+    margin: 10vh;
+    align-items: center;
+    gap: 5vh;
+}
+
+.four-crafts img{
+    width: 60%;
+}
 
 
 
