@@ -1,0 +1,39 @@
+.nav__list--link{
+    transition: color 0.5s ease-in-out;
+}
+
+.nav__list--link:hover {
+    color: #FFD700;             /* Cambia el color del texto a dorado */
+}
+
+.food__hero{
+    padding-top: 7vh;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.food__hero--contenido{
+    width: 50%;
+    padding: 3vh;
+}
+
+.food__hero--titulo{
+    font-size: 5vh;
+    margin-bottom: 2vh;
+    font-weight: bold;
+    color: var(--encabezados);
+}
+
+.food__hero--img{
+    width: 40%;
+    border-radius: 10px;
+}
+.food__hero--descripcion{
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin: 0;
+    width: 67vh;
+    text-align:justify;
+}
