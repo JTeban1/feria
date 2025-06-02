@@ -86,7 +86,6 @@ html{
     display: flex;
     justify-content: center;
     gap: 5rem;
-
 }
 
 .nav-list a{
@@ -119,6 +118,26 @@ footer{
     gap: 20rem;
     padding-top: 5vh;
     padding-bottom: 5vh;
+    margin-top: 10vh;
     color: var(--fondo-claro);
+}
+
+@media (max-width: 768px) {
+
+  .nav-bar{
+    overflow-x: auto;
+  }
+
+  .nav-list{
+    margin-left: 6vh;
+    margin-right: 10vh;
+  }
+
+  .contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    align-items: center;
+  }
 }
 

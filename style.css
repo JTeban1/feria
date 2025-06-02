@@ -15,8 +15,7 @@ body{
 /* BLOCK */
 
 .presentation{
-    padding-top: 10vh;
-    height: 100vh;
+    padding-top: 22vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -50,10 +49,10 @@ body{
 /* BLOCK */
 
 .second-presentation{
-    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 22vh;
 }
 
 /* ELEMENTS */
@@ -84,10 +83,10 @@ body{
 /* BLOCK */
 
 .final-presentation{
-    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 22vh;
 }
 
 /* ELEMENTS */
@@ -149,7 +148,6 @@ body{
     margin-right: 10vh;
 }
 
-
 /* ELEMENTS */
 
 .presentation-crafts-info{
@@ -198,7 +196,84 @@ body{
     width: 60%;
 }
 
+@media (max-width: 768px) {
 
+    /* BLOCK */
+
+    .presentation{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    }
+
+    .p-info{
+        width: 80%;
+    }
+
+    /* ELEMENTS */
+
+    .p-info h1{
+        font-size: 3rem;
+    }
+
+    .p-info p{
+        font-size: 1rem;
+    }
+
+    .presentation img{
+        width: 80%;
+    }
+
+    /* BLOCK */
+
+    .second-presentation{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10vh;
+        gap: 4vh;
+    }
+
+    /* ELEMENTS */
+
+    .second-info{
+        width: 80%;
+    }
+
+    .second-info h3{
+        font-size: 2rem;
+    }
+
+    .second-info p{
+        font-size: 1rem;
+    }
+
+    .second-presentation img{
+        width: 80%;
+    }
+
+    /* BLOCK */
+
+    .final-presentation{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10vh;
+        gap: 4vh;
+    }
+
+    .third-presentation{
+        width: 80%;
+    }
+
+    .third-presentation p{
+        font-size: 1.5rem
+    }
+
+    .final-presentation img{
+        width: 80%;
+    }
+
+}
 
 
 
